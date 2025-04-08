@@ -64,6 +64,8 @@ def api_prever():
     dados = request.get_json()
     chamado = dados.get("chamado", "")
 
+    print("passou na API")
+
     if not chamado:
         return jsonify({"erro": "Nenhum chamado enviado"}), 400
 
