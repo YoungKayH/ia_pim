@@ -1,5 +1,5 @@
 # app.py
-# @author Kaka
+# @author Kaylan
 # @date 08/04/2025
 # @description server app conexão do REST API com chamada da IA
 from flask import Flask, request, jsonify

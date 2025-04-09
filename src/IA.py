@@ -4,8 +4,8 @@ import torch.optim as optim
 import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-MODELO_PATH = "models/modelo_suporteTI.pth"
-VECTORIZER_PATH = "models/vectorizer.pkl"
+MODELO_PATH = "src/models/modelo_suporteTI.pth"
+VECTORIZER_PATH = "src/models/vectorizer.pkl"
 
 # Lista de exemplos de chamados (inputs)
 chamados = [
